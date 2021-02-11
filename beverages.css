@@ -1,0 +1,73 @@
+<style>
+body{
+  margin: 0px;
+}
+ul{
+  float: left;
+  height: 100%;
+  border: 5px solid #121212;
+  margin-left: 50px;
+  padding: 0px;
+  width: 85%;
+}
+a{
+  display: block;
+  text-decoration: none;
+  height: 50px;
+  width: 100px;
+}
+.items{
+  display: inline;
+}
+#TopNav {
+  background-color: salmon;
+  height: 50px;
+  width: 95%;
+}
+#TopNav li a{
+  text-decoration: none;
+  float: right;
+  display: inline;
+  padding-right: 35px;
+  font-family: monospace;
+  font-size: 35px;
+  color: blue;
+  height: 15px;
+}
+#TopNav li a:hover{
+  color: yellow;
+}
+#MenuNav{
+  height: 70%;
+  width: 100px;
+  background-color: #ffff4d;
+  border-right: 2px solid black;
+  margin: 0px;
+  float: left;
+}
+#MenuNav li{
+  list-style: none;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+#MenuNav li a:hover{
+  color: red;
+}
+#content{
+  text-align: center;
+  color: purple;
+  background-color: violet;
+  font-size: 20px;
+}
+#tacos{
+  font-size: 30px;
+}
+#taco{
+  font-size: 20px;
+}
+#tac{
+  background-color: violet;
+  height: 40%;
+}
+</style>
